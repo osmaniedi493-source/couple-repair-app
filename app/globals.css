@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1f2430;
+  --color-paper: #fff8ef;
+  --color-cream: #fffdf7;
+  --color-peach: #ffd8c6;
+  --color-rose: #d9546f;
+  --color-moss: #78906d;
+  --color-sky: #8eb9df;
+  --shadow-sticker: 7px 7px 0 rgba(31, 36, 48, 0.12);
+  --shadow-soft: 0 20px 55px rgba(31, 36, 48, 0.10);
+}
+
+:root {
+  color: #1f2430;
+  background: #fff8ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(255, 183, 157, 0.74) 0 16rem, transparent 16.2rem),
+    radial-gradient(circle at 100% 8%, rgba(241, 204, 120, 0.44) 0 13rem, transparent 13.2rem),
+    linear-gradient(135deg, #fff8ef, #fffdf7 45%, #f4f8ff);
+  font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+button,
+textarea,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+textarea,
+input {
+  outline: none;
+}
+
+.font-handwriting {
+  font-family: "Zhi Mang Xing", "Xingkai SC", "STXingkai", cursive;
+}
